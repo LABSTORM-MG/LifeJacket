@@ -1,0 +1,9 @@
+name: LifeJacket
+version: '${project.version}'
+main: me.labstorm.lifejacket.Main
+api-version: 1.19
+commands:
+  lifeJacketReload:
+    description: takes over the values from the config
+    permission: lifejacket.config
+    usage: /lifeJacketReload
